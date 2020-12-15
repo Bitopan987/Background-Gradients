@@ -1,0 +1,182 @@
+            /* Eric Mayers Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+               /* My Reset */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+            /* Custom styles */
+   
+
+.container {
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    max-width:80rem;
+}
+
+.sec-1 {
+    background: url(../image/jr-korpa-xxdSligaqfc-unsplash.jpg) no-repeat center;
+    width: 100%;
+    background-size: cover;    
+}
+
+.flexbox {
+    line-height: 200px;
+    text-align: center;
+    background-color: white;
+    font-size: 2em;
+    flex: 0 0 300px;
+    margin: 7px;
+    outline-offset: -7px;
+    outline: 2px solid white;
+    border: 2px solid black;
+    color: white;
+    text-shadow: 0 0 7px #FF0000, 0 0 10px #0000FF;
+}
+
+.flex {
+    display: flex;
+    max-width: 90rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.col1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 0 0 7px #FF0000, 0 0 10px #0000FF;
+}
+
+.box-1 {
+    background:conic-gradient(rgb(141, 139, 139) 90deg, #000 0.25turn 0.5turn, #fff 1rad 1.5rad, #000 300grad);;
+}
+
+.box-2 {
+    background:  linear-gradient(to right,rgb(43, 40, 40),rgb(231, 119, 53),rgb(149, 214, 27) ,rgb(36, 152, 230),rgb(39, 38, 38));
+}
+
+.box-3 {
+    background:radial-gradient(circle at bottom,red,yellow,green,black);
+}
+
+.box-4 {
+    background:conic-gradient(red 6deg, orange 6deg 18deg, yellow 18deg 45deg, 
+    green 45deg 110deg, blue 110deg 200deg, purple 200deg);
+}
+
+.box-5 {
+    background-image: radial-gradient(#77c5b4, #264155);
+}
+
+.box-6 {
+    background: conic-gradient(red, orange, green, rgb(60, 60, 238),red);
+}
+
+.box-7 {
+    background: conic-gradient(red .8rad, yellow .6rad, blue 1.3rad);
+}
+
+.box-8 {
+    background: conic-gradient(#fff 0.09turn, rgb(56, 52, 52) 0.09turn, #bbb 0.27turn, #666 0.27turn, #666 0.54turn, #000 0.54turn);;
+}
+
+.box-9 {
+    background: conic-gradient(
+        red 36deg, orange 36deg 170deg, yellow 170deg);;
+}
+
+.box-10 {
+    background: conic-gradient(#f35 0.25turn, #43e 0.25turn 0.5turn, #f35 0.5turn 0.75turn, #43e 0.75turn)
+top left / 25% 25% repeat
+}
+
+.box-11 {
+    background: conic-gradient(from 0deg at 0% 25%, blue, green, yellow 180deg);
+}
+
+.box-12 {
+    background: radial-gradient(farthest-corner at 40px 40px,
+    #f35 0%, #43e 100%);
+}
+
+                
+                 /* Section-2 */
+
+
+.sec-2 {
+    background: url(../image/jr-korpa-xxdSligaqfc-unsplash.jpg) no-repeat center;
+    width: 100%;
+    background-size: cover;   
+}
+
+.box-13 {
+    line-height: 400px;
+    text-align: center;
+    background:linear-gradient(135deg, rgb(240, 240, 104),rgba(85, 165, 255, 0.133), #C94423),url(../image/nathan-dumlao-Pzzf9OXAGh8-unsplash.jpg) no-repeat;
+    font-size: 2em;
+    flex: 0 0 300px;
+    margin: 7px;
+    outline-offset: -7px;
+    outline: 2px solid white;
+    border: 2px solid black;
+    color: white;
+    background-size: cover;
+    text-shadow: 0 0 7px #FF0000, 0 0 10px #0000FF;
+}
