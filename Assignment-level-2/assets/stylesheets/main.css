@@ -1,0 +1,373 @@
+          /* Eric Mayers Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+              /* My Reset */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+              /* Global Styles */
+h1 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: .9em;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+}
+
+h1,h2,h3,h4,p,label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    font-size:.7em;
+   
+}
+
+strong {
+    font-size: 2.5em;
+}
+
+
+
+
+
+              /* Modular Classes */
+
+.container {
+    margin: 0 auto;
+    max-width: 53rem;
+    padding: 1rem 3rem;
+}
+
+.flex {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+strong {
+    font-weight:800;
+    color: white;
+}
+
+body {
+    background:linear-gradient(to bottom,rgb(98, 185, 243) 30%,rgb(113, 208, 230) 30% 100%);
+}
+
+
+               /* Header */
+
+
+h1 {
+   font-weight: 700;
+   color: white;
+   padding-bottom: 8px;
+  
+}
+
+h3 {
+    color: white;
+}
+
+.dark {
+    line-height:4;
+}
+
+.btn {
+    width: 2.2rem;
+    height: 1.1rem;
+    margin: 19px 0 0 4px;
+    border-radius: 25px;
+    background:linear-gradient(to right,rgb(245, 201, 201),rgb(58, 231, 231));
+    outline: none;
+}
+
+.fa-circle {
+    font-size: 1em;
+    padding: 0 18px 7px 0;
+}
+
+
+                    /* Section-1 */
+
+                    /* Square-1 */
+
+.square {
+    background-color: rgb(33, 33, 39);
+    width: 11rem;
+    padding: 0.5rem;
+    text-align: center;
+    position: relative;
+}
+
+.square::before,
+.square::after {
+    content: "";
+    position: absolute;
+    top: 90%;
+    bottom: 6px;
+    box-shadow: 0 7px 3px  rgba(0, 0, 0,.5);
+    z-index:-1;
+}
+
+.square::before {
+    background-color: lightblue;
+    left: 2px;
+    right: 15px;
+    transform: rotate(-3deg);
+}
+
+.square::after {
+    background-color: rgb(245, 185, 21);
+    left: 15px;
+    right: 2px;
+    transform: rotate(3deg);
+}
+
+.square-1 {
+    background: #373e57 linear-gradient(to right, rgb(252, 94, 66), #09518b) no-repeat;
+    background-size: 100% 5%;
+}
+
+.fa-facebook-square {
+    color: rgb(44, 108, 245);
+    font-size:1.5em;
+    vertical-align:middle;
+}
+
+.mail>a {
+    color: rgb(191, 196, 204);
+    text-decoration: none;
+    line-height: 2;
+}
+
+.follower {
+    color: rgb(214, 204, 204);
+
+}
+
+.mail {
+    padding:0 0 1rem 0;
+}
+
+strong {
+    display: block;
+}
+
+.time {
+    color: green;
+    padding-top:9px;
+}
+
+.time>.fa-caret-down {
+    transform: rotate(-180deg);
+}
+
+                  /* Square-2 */
+
+.fa-twitter {
+color: rgb(44, 108, 245);
+font-size:1.5em;
+vertical-align:middle;
+}
+
+.square-2 {
+    background: #373e57 linear-gradient(to right, #FBBD66, #f7268b) no-repeat;
+    background-size: 100% 5%;
+}
+
+                 /* Square-3 */
+
+.fa-instagram {
+    background: linear-gradient(to right, #FBBD66, #f7268b) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+   -ms-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+     -o-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+        text-fill-color: transparent;  
+    font-size:1.5em;
+    vertical-align:middle;
+    border-radius: 3px;
+   
+}
+
+.square-3 {
+    background: #373e57 linear-gradient(to right, #FBBD66, #03b9aa) no-repeat;
+    background-size: 100% 5%;
+}
+
+                /* Square-4 */
+
+.fa-youtube {
+    background:red;
+    font-size:1em;
+    vertical-align:middle;
+    border-radius:50%;
+    padding: 3px;
+
+}
+
+.square-4 {
+    background: #373e57 linear-gradient(to right, #fd6a30, #481af1) no-repeat;
+    background-size: 100% 5%;
+}
+
+.time-today {
+    color: red;
+    padding-top:9px;
+}
+
+.time-today>.fa-caret-down {
+    transform: rotate(-180deg);
+}
+
+                    /* Section-2 */
+
+
+.box {
+    background-color:#2e3241;
+    width: 11rem;
+    padding: 1rem;
+    position: relative;
+}
+
+
+.box::before,
+.box::after {
+    content: "";
+    position: absolute;
+    top: 90%;
+    bottom: 6px;
+    box-shadow: 0 6px 3px  rgba(0, 0, 0,.5);
+    z-index:-1;
+}
+
+.box::before {
+    background-color: lightblue;
+    left: 2px;
+    right: 15px;
+    transform: rotate(-3deg);
+}
+
+.box::after {
+    background-color: rgb(245, 185, 21);
+    left: 15px;
+    right: 2px;
+    transform: rotate(3deg);
+}
+
+
+   
+                   /* Boxes */
+
+
+.box {
+    margin-bottom: 1rem;
+}
+.title {
+   color: rgb(175, 181, 185);
+   line-height: 2;
+}
+
+.overview {
+    padding-bottom: 9px;
+}
+
+.overview>i {
+  font-size: 1.5em;
+}
+
+.overview>.fa-youtube {
+    font-size: 1em;
+    
+}
+
+
+.percent-green {
+    padding-top: 12px;
+    color: green;
+}
+
+.percent>i {
+    transform: rotate(-180deg);
+}
+
+.percent-red {
+    padding-top: 12px;
+    color: red;
+}
+                    
+
+
+
+
+
+
+
